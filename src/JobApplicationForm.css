@@ -1,0 +1,96 @@
+.form-wrapper {
+    background-color: #0c1f3e;
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: #1a2a4a;
+    padding: 2.5rem;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    color: #f0ad4e;
+    font-weight: bold;
+}
+
+.form-subtitle {
+    color: #d8d8d8;
+}
+
+.form-label {
+    color: #f0ad4e;
+    font-weight: 500;
+}
+
+.form-control, .form-select {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #f0ad4e;
+    box-shadow: 0 0 0 0.25rem rgba(240, 173, 78, 0.3);
+}
+
+.form-check-input {
+    background-color: #2a3b5a;
+    border-color: #3a4b6a;
+}
+
+.form-check-input:checked {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.form-check-label {
+    color: #ffffff;
+}
+
+.dropzone {
+    border: 2px dashed #3a4b6a;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #d8d8d8;
+    transition: border-color 0.3s;
+}
+
+.dropzone:hover {
+    border-color: #f0ad4e;
+}
+
+.dropzone p {
+    margin: 0;
+}
+
+.btn-submit {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+    color: #1a2a4a;
+    font-weight: bold;
+    padding: 10px 30px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #eea236;
+    border-color: #eea236;
+    color: #1a2a4a;
+}
+
+.progress-bar {
+    background-color: #f0ad4e !important;
+}
